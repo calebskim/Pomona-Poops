@@ -9,12 +9,12 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
-var mapList = ["Menstrual Products", "Accessible Stalls", "Roll-under Sinks" ];
-var time = 3000;
+var mapList = ["Menstrual Products", "Accessible Stalls", "Roll-under Sinks", "Grab Bars", "Seat Covers", "Hand Dryers", "Changing Tables"];
+var time = 2500;
 var splitTime = 500;
 var i = 0;
 let map__list = document.getElementById("map__list");
-var text = "I need ";
+var text = "I'm looking for ";
 let result = text.fontcolor("white");
 const period = "."
 let result2 = period.fontcolor("white");
