@@ -51,6 +51,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-family: "Lucida Console", "Monaco", monospace;
 }
 
 .navbar__menu {
@@ -94,9 +95,14 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #ffb6c1;
+    background: #cd8c97;
     color: #fff;
     transition: all 1s ease;
+}
+
+.button:hover {
+    background-color: #f1c2ca;
+    color: #474747;
 }
 
 .navbar__links:hover {
@@ -139,6 +145,7 @@
         z-index: 99;
         height: 45vh;
         font-size: 1.6rem;
+        font-family: "Lucida Console", "Monaco", monospace;
     }
 
     #navbar__logo {
@@ -155,6 +162,7 @@
 
     .navbar__item {
         width: 100%;
+        font-family: "Lucida Console", "Monaco", monospace;
     }
 
     .navbar__links {
@@ -162,6 +170,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+        font-family: "Lucida Console", "Monaco", monospace;
     }
 
     .navbar__btn {
@@ -257,6 +266,7 @@
     color: #fff;
     padding: 25px 50px;
     font-size: 1.7rem;
+   font-family: "Lucida Console", "Monaco", monospace;
 }
 
 .intro2 {
@@ -281,6 +291,7 @@
 
 .pink {
     color: #ffd0db;
+    font-family: "Lucida Console", "Monaco", monospace;
 }
 
 .intro2__map {
@@ -660,7 +671,7 @@
     position: fixed;
     bottom: 3em;
     right: 3em;
-    background-color: #efaab5;
+    background-color: #cd8c97;
     color: #fff;
     border: none;
     padding: 1.5em;
@@ -673,7 +684,7 @@
 }
 
 #back-to-top:hover {
-    background-color: #ff814f;
+    background-color: #f1c2ca;
     color: #474747;
 }
 
@@ -693,3 +704,22 @@
   cursor: pointer;
 }
 
+/* Scrollbar CSS */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #f1c2ca #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #474747;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f1c2ca;
+    border-radius: 10px;
+  }
