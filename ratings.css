@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 html,body{
   display: grid;
@@ -14,7 +14,7 @@ html,body{
 }
 .container{
   position: relative;
-  width: 400px;
+  width: 1500px;
   background: #2f2d2d;
   padding: 20px 30px;
   border: 1px solid #444;
@@ -56,14 +56,14 @@ html,body{
 }
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
-  color: #fd4;
+  color: #cb9aa2;
 }
 input:checked ~ label{
-  color: #fd4;
+  color: #cb9aa2;
 }
 input#rate-5:checked ~ label{
-  color: #fe7;
-  text-shadow: 0 0 20px #952;
+  color: #f1c2ca;
+  text-shadow: 0 0 20px rgb(153, 34, 76);
 }
 #rate-1:checked ~ form header:before{
   content: "smells like something died ";
@@ -72,7 +72,7 @@ input#rate-5:checked ~ label{
   content: "it's quite dirty ";
 }
 #rate-3:checked ~ form header:before{
-  content: "not bad for a public bathroom ";
+  content: "not bad but not good ";
 }
 #rate-4:checked ~ form header:before{
   content: "it's pretty clean ";
@@ -89,7 +89,7 @@ input:checked ~ form{
 form header{
   width: 100%;
   font-size: 25px;
-  color: #fe7;
+  color: #f1c2ca;
   font-weight: 500;
   margin: 5px 0 20px 0;
   text-align: center;
@@ -136,3 +136,31 @@ form .btn button:hover{
   background: #1b1b1b;
 }
 
+.img-with-text {
+    border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 4px;
+  cursor: pointer;
+  flex: 33.33%;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+    
+}
+.row {
+    background-color: #333;
+    display: flex;
+    width: 1500px;
+  }
+
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
