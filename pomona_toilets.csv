@@ -1,0 +1,61 @@
+Building,Latitude,Longitude,Name,Gender,number_toilets,number_urinals,number_sinks,accessible_stall,grab_bars,roll_under,menstrual_products,hand_dryer,paper_towels,toilet_seat_cover,score
+Estella,34.09991551,-117.7139189,2nd Floor Single Restroom,Gender Neutral,1,0,1,yes,yes,yes,yes,yes,yes,yes,7
+Estella,34.09988687,-117.7145825,2nd Floor Women's Restroom,Women,5,0,3,yes,yes,yes,yes,yes,yes,yes,7
+Estella,34.09982551,-117.7146912,2nd Floor Men's Restroom,Men,2,3,3,yes,yes,yes,no,yes,yes,yes,6
+Estella,34.09988142,-117.7146961,1st Floor Men's Restroom,Men,2,3,3,yes,yes,yes,no,yes,yes,yes,6
+Estella,34.09995778,-117.7145446,1st Floor Women's Restroom,Women,5,0,3,yes,yes,yes,yes,yes,yes,yes,7
+Estella,34.09992914,-117.7138925,1st Floor Single Restroom,Gender Neutral,1,0,1,yes,yes,yes,yes,yes,yes,yes,7
+Edmunds,34.09993523,-117.7129025,2nd Floor Men's Restroom,Men,2,1,2,yes,yes,yes,no,no,yes,yes,5
+Edmunds,34.09994568,-117.7128663,1st Floor Men's Restroom,Men,2,1,2,yes,yes,yes,no,no,yes,yes,5
+Edmunds,34.09984906,-117.7128868,1st Floor Women's Restroom,Women,3,0,2,yes,yes,yes,no,no,yes,yes,5
+Edmunds,34.09984122,-117.712942,2nd Floor Women's Restroom,Women,3,0,2,yes,yes,yes,no,no,yes,yes,5
+Lincoln,34.10030437,-117.7129079,1st Floor Men's Restroom,Men,2,1,2,yes,yes,yes,no,no,yes,yes,5
+Lincoln,34.10029784,-117.7129662,2nd Floor Men's Restroom,Men,2,1,2,yes,yes,yes,no,no,yes,yes,5
+Lincoln,34.10035268,-117.7129394,1st Floor Women's Restroom,Women,3,0,2,yes,yes,yes,no,no,yes,yes,5
+Lincoln,34.10038402,-117.7129473,2nd Floor Women's Restroom,Women,3,0,2,yes,yes,yes,no,no,yes,yes,5
+Smith Campus Center,34.09934464,-117.7133904,Name,Men,3,2,4,yes,yes,yes,no,yes,yes,yes,6
+Smith Campus Center,34.09934073,-117.7133462,Women's Restroom,Women,5,0,4,yes,yes,yes,yes,yes,yes,yes,7
+Oldenborg,34.0971733,-117.7120335,Lobby Men's Restroom,Men,1,2,1,yes,yes,yes,no,no,yes,yes,5
+Oldenborg,34.09711715,-117.7120335,Lobby Women's Restroom,Women,2,0,1,yes,yes,yes,no,no,yes,yes,5
+Claremont Colleges Library,34.10210607,-117.7122238,Entrance Men's Restroom,Men,3,2,1,yes,yes,yes,no,no,yes,yes,5
+Claremont Colleges Library,34.1020883,-117.7122319,Entrance Women's Restroom,Women,3,0,2,yes,yes,yes,no,no,yes,yes,5
+Claremont Colleges Library,34.10210607,-117.7124357,2nd Floor Women's Restroom,Women,6,0,6,yes,yes,yes,no,no,yes,yes,5
+Claremont Colleges Library,34.10213938,-117.7124464,2nd Floor Men's Restroom,Men,2,3,3,yes,yes,yes,no,no,yes,yes,5
+Claremont Colleges Library,34.10221712,-117.7120361,3rd Floor Men's Restroom,Men,1,1,1,yes,yes,yes,no,no,yes,yes,5
+Claremont Colleges Library,34.10215271,-117.7120656,3rd Floor Women's Restroom,Women,3,0,3,yes,yes,yes,no,no,yes,yes,5
+Carnegie,34.09808433,-117.7154521,1st Floor Single Restroom,Gender Neutral,1,1,1,yes,yes,yes,no,no,yes,yes,5
+Carnegie,34.09809909,-117.7154521,4th Floor Restroom,Gender Neutral,3,0,2,yes,yes,yes,no,no,yes,yes,5
+Carnegie,34.09815222,-117.7153915,1st Floor Women's Restroom,Women,1,0,1,yes,yes,yes,no,no,yes,yes,5
+Carnegie,34.09809614,-117.7153897,2nd Floor Women's Restroom,Women,1,0,1,yes,yes,yes,no,no,yes,yes,5
+Carnegie,34.09817436,-117.7153131,Ground Floor Women's Restroom,Women,3,0,2,yes,yes,yes,yes,no,yes,yes,6
+Carnegie,34.09809466,-117.7153719,Ground Floor Men's Restroom,Men,2,3,2,yes,yes,yes,no,no,yes,yes,5
+Pearsons,34.09907105,-117.715284,Men's Restroom,Men,1,1,1,yes,yes,yes,no,no,yes,yes,5
+Pearsons,34.09907991,-117.7153713,1st Floor Women's Restroom,Women,2,0,1,yes,yes,yes,no,no,yes,yes,5
+Seaver South,34.09991231,-117.715423,1st Floor Men's Restroom,Men,1,2,2,yes,yes,yes,no,no,yes,yes,5
+Seaver South,34.09984146,-117.7154533,1st Floor Women's Restroom,Women,3,0,2,yes,yes,yes,no,no,yes,yes,5
+The Hive,34.10031965,-117.7141397,Women's Restroom,Women,3,0,2,yes,yes,yes,yes,no,yes,yes,6
+The Hive,34.10029308,-117.71417,Men's Restroom,Men,3,3,3,yes,yes,yes,no,no,yes,yes,5
+Mason,34.09930656,-117.7162926,Men's Restroom,Men,2,2,4,yes,yes,yes,no,no,yes,yes,5
+Mason,34.09913093,-117.7162801,Women's Restroom,Women,4,0,4,yes,yes,yes,yes,no,yes,yes,6
+Crookshank,34.09940611,-117.7158175,Women's Restroom,Women,2,0,1,yes,yes,yes,yes,no,yes,yes,6
+Hahn,34.09803582,-117.7160502,Women's Restroom,Women,5,0,4,yes,yes,yes,yes,no,yes,yes,6
+Hahn,34.09822178,-117.7160787,Men's Restroom,Men,2,2,4,yes,yes,yes,no,no,yes,yes,5
+Thatcher,34.09733566,-117.7145994,Men's Restroom,Men,1,2,2,yes,yes,yes,no,no,yes,yes,5
+Thatcher,34.09743247,-117.7144008,Women's Restroom,Women,2,0,3,yes,yes,yes,no,no,yes,yes,5
+Lebus,34.09704094,-117.7139169,Men's Restroom,Men,1,1,1,no,no,yes,no,no,yes,yes,3
+Lebus,34.09693436,-117.7137434,Women's Restroom,Women,2,0,1,no,no,yes,yes,no,yes,yes,4
+Harwood,34.09637445,-117.7137725,Single Restroom,Gender Neutral,1,0,1,yes,yes,yes,no,no,no,no,3
+Harwood,34.09639985,-117.7139683,Dorm Restrooms,All,1,0,2,no,no,yes,no,no,no,no,1
+Harwood,34.09639985,-117.7137151,Dorm Restrooms,All,1,0,2,yes,no,yes,no,no,no,no,2
+Wig,34.09636742,-117.7144817,Lobby Restroom,Gender Neutral,1,0,1,yes,no,yes,no,no,no,yes,3
+Wig,34.09611496,-117.714447,Dorm Restrooms,All,2,0,3,no,no,yes,no,no,no,no,1
+Lyon,34.09587415,-117.7138778,1st Floor Accessible Restroom,Gender Neutral,1,0,2,yes,yes,yes,no,no,no,no,3
+Lyon,34.09586581,-117.7140911,Dorm Restrooms,All,2,0,2,yes,no,yes,no,no,no,no,2
+Gibson,34.09596803,-117.7125051,Dorm Restrooms,All,2,0,2,no,no,no,no,no,no,no,0
+Gibson,34.09583847,-117.7124804,Accessible Restroom,Gender Neutral,1,0,1,yes,yes,yes,no,no,no,no,3
+Mudd,34.0963949,-117.7128837,Lobby Restroom,Gender Neutral,1,0,1,yes,no,yes,yes,no,yes,yes,5
+Blaisdell,34.09638638,-117.7120947,Lobby Restroom,Gender Neutral,1,0,1,yes,no,yes,yes,no,yes,yes,5
+Mudd-Blaisdell,34.09641763,-117.7125132,Dorm Restrooms,All,1,0,2,no,no,no,no,no,no,no,0
+Walker,34.1005298,-117.712052,1st Floor Restroom,Gender Neutral,1,0,1,yes,no,yes,no,no,yes,yes,4
+Sontag,34.10077154,-117.7095706,1st Floor Restroom,Gender Neutral,1,0,1,yes,yes,yes,yes,no,yes,no,5
+Dialynas,34.10038879,-117.7095949,1st Floor Restroom,Gender Neutral,1,0,1,yes,yes,yes,yes,no,yes,yes,6
