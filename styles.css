@@ -40,7 +40,7 @@
 }
 
 #navbar__logo {
-    background-color: #ff814f;
+    background-color: #ffd0db;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -94,13 +94,13 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #ff814f;
+    background: #efaab5;
     color: #fff;
     transition: all 1s ease;
 }
 
 .navbar__links:hover {
-    color: #ff814f;
+    color: #ffb6c1;
     transition: all 0.3s ease;
 }
 
@@ -279,12 +279,12 @@
     transition: all 1s ease;
 }
 
-.orange {
-    color: #ff814f;
+.pink {
+    color: #ffd0db;
 }
 
 .intro2__map {
-    width: 500px;
+    width: 1200px;
 }
 
 .experience__container {
@@ -405,7 +405,7 @@
 }
 
 .time__title {
-    color: #ff814f;
+    color: #efaab5;
 
 }
 
@@ -441,7 +441,7 @@
 }
 
 .skills__programming__item {
-    background-color: #ff814f;
+    background-color: #efaab5;
     border-radius: 25px;
     color: #fff;
     padding: 0 15px;
@@ -474,7 +474,7 @@
 }
 
 .project__container:hover {
-    background-color: #429b3a;
+    background-color: #b0557d;
 }
 
 .project__container2:hover {
@@ -488,7 +488,7 @@
 }
 
 .project__link2 {
-    background-color: #ff814f; 
+    background-color: #b0557d; 
     border-radius: 25px; 
     padding: 10px;
     color: #fff;
@@ -660,7 +660,7 @@
     position: fixed;
     bottom: 3em;
     right: 3em;
-    background-color: #ff814f;
+    background-color: #efaab5;
     color: #fff;
     border: none;
     padding: 1.5em;
@@ -679,5 +679,17 @@
 
 #back-to-top.visible {
     opacity: 1;
+}
+
+.button {
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
