@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Pomona Toilets</title>
+    <title>Pomona Toilets</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com"> 
@@ -24,13 +24,13 @@
                     <a href="#about" class="navbar__links" id="about-page">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#skills" class="navbar__links" id="skills-page">Map</a>
+                    <a href="map.html" class="navbar__links" id="skills-page">Map</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#experiences" class="navbar__links" id="experiences-page">Ratings</a>
+                    <a href="#ratings" class="navbar__links" id="experiences-page">Ratings</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#projects" class="navbar__links" id="projects-page">Search</a>
+                    <a href="#search" class="navbar__links" id="projects-page">Search</a>
                 </li>
                 <li class="navbar__btn">
                     <a href="#contacts" class="button" id="contacts-page">Contacts</a>
@@ -41,23 +41,26 @@
 
     <!-- About Section -->
     <div class="section" id="about">
-        <h2 Welcome to <span class="orange" data-aos="fade" data-aos-delay="1000" data-aos-duration="2000">Pomona Toilets</span>. </h2>
         <div class="intro__container">
             <div class="intro1">
-        
+                <img src="https://i.pinimg.com/originals/e9/5f/c7/e95fc7b02d3ed5a2138c7b4f4286bca2.png" alt="Italian Trulli" style="width:500px;height:500px;">
                 <p data-aos="fade-up" data-aos-duration="1000" class="intro1__description" data-aos="fade" data-aos-delay="500">
-                    Welcome to <span class="orange" data-aos="fade" data-aos-delay="1000" data-aos-duration="2000">Pomona Toilets</span>
+                    Welcome to <span class="pink" data-aos="fade" data-aos-delay="1000" data-aos-duration="2000">Pomona Toilets</span>
+                    <br>
                 </p>
+                
             </div>
             <div class="intro2">
                 <div class="multi-para">
-                    <p class="intro2__description" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="2000">
-                        Description.... 
-                    </p>
+                    <p class="intro2__description" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="2000"></p>
                     <p class="blank-line">random</p>
-                    <p style="margin-bottom: 30px;" class="orange intro2__description" id="map__list" data-aos="fade" data-aos-delay="3000" data-aos-duration="2000"></p>
-                </div>
-                <img data-aos="fade-up" data-aos-duration="1000" src="pomona-campus-map.png" alt="" class="intro2__map">
+                    <p style="margin-bottom: 30px;" class="pink intro2__description" id="map__list" data-aos="fade" data-aos-delay="3000" data-aos-duration="2000"></p>
+            </div>
+            </div>
+            <div class="container">
+                <a href="map.html">
+                    <button type="button" class ="button">Map</button>
+                </a>
             </div>
         </div>
     </div>
@@ -67,5 +70,6 @@
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>AOS.init();</script>
+
 </body>
 </html>
