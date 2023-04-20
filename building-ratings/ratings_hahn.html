@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Star Rating Form | CodingNepal</title>
+    <link rel="stylesheet" href="ratings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    
+    <a href="ratingsmain.html" style="color:#ffffff" >Back</a>
+
+    <div class="row">
+      <div class="img-with-text">
+        <img src="https://lh4.googleusercontent.com/MrAa_NafhVmS6lKGn5DnE1gBbQvVvbWkwsyEucwn6bPQSvNk7jb_l42QyMSliNHgYeYnD8duifO8n1L4ywbl-UPXb-xKmNX_SGj-NXpAaoPSuNLQ7zc3XOMkUG9-sTAPV9k5RPMZ3EkczT06gZM8M0c" alt="Hahn" style="width:200px">
+        <p\>Women's</p>
+      </div>
+      <div class="img-with-text">
+        <img src="https://lh6.googleusercontent.com/6crTjjrBnatFcd7Zd0fvZGYmAGVcYB1LkOm4FNQXYRWcpWEoUXi7_MvarzAkgbt6PUogdJa7Gml27AH9Gdj2aqS4ioNJjZGAnYJXTfYA11Zc0YL0AzBC0Nzu8dxs7SvOAuJ1258nw41GTt1O6cIMTqc" alt="Hahn" style="width:200px">
+        <p\>Men's</p>
+      </div>
+    </div>
+   
+    <div class="container">
+      <div class="post">
+        <div class="text">Thank you!</div>
+        <div class="edit">EDIT</div>
+      </div>
+      <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Comments.."></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>
